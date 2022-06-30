@@ -1,0 +1,68 @@
+/* pages/home/home.wxss */
+.page {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+    /* margin-top: 20rpx;
+    margin-bottom: 20rpx; */
+    padding-bottom: 142rpx;
+}
+
+.block {
+    height: 350rpx;
+    width: 85%;
+}
+
+.list {
+    margin-top: 25rpx;
+}
+
+.list_item {
+    height: 75rpx;
+    margin-bottom: 35rpx;
+    margin-top: 40rpx;
+    margin-left: 60rpx;
+    align-items: center;
+    display: flex;
+}
+
+.item_image {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 42rpx;
+    width: 50rpx;
+}
+
+.item_text {
+    font-family: STKaiti;
+    font-size: 40rpx;
+    margin-left: 10rpx;
+    width: 85%;
+}
+
+.divLine{
+    width: 75%;
+    height: 2rpx;
+    background-color: rgb(233, 232, 232);
+    margin:  auto;
+}
+.tabbar{
+  background-color: white;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height: 142rpx;
+}
+.image{
+  height: 140rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tab{
+  height: 50px;
+  width: 50px;
+}

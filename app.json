@@ -1,0 +1,67 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/index/index",
+        "pages/house/house",
+        "pages/photo/photo",
+        "pages/rescue/rescue",
+        "pages/us/us",
+        "pages/write/write",
+        "pages/home/goto/goactivity1/goactivity",
+        "pages/home/goto/goactivity1/goactivity1",
+        "pages/home/goto/goactivity2/goactivity2",
+        "pages/home/goto/goactivity3/goactivity3",
+        "pages/home/goto/goactivity4/goactivity4",
+        "pages/home/goto/goactivity5/goactivity5",
+        "pages/home/goto/goactivity6/goactivity6",
+        "pages/home/goto/goactivity7/goactivity7",
+        "pages/home/goto/goactivity8/goactivity8",
+        "pages/house/goto/goImg1/goImg1",
+        "pages/house/goto/goImg2/goImg2",
+        "pages/house/goto/goImg3/goImg3",
+        "pages/house/goto/goPop1/goPop1",
+        "pages/house/goto/goPop2/goPop2",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "custom": true,
+        "color": "#000000",
+        "selectedColor": "#000000",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "/resources/home/icon/index.png",
+                "selectedIconPath": "/resources/home/icon/index.png"
+            },
+            {
+                "pagePath": "pages/house/house",
+                "iconPath": "/resources/home/icon/house.png",
+                "selectedIconPath": "/resources/home/icon/house.png"
+            },
+            {
+                "pagePath": "pages/photo/photo",
+                "iconPath": "/resources/home/icon/photo.png",
+                "selectedIconPath": "/resources/home/icon/photo.png"
+            },
+            {
+                "pagePath": "pages/rescue/rescue",
+                "iconPath": "/resources/home/icon/rescue.png",
+                "selectedIconPath": "/resources/home/icon/rescue.png"
+            },
+            {
+                "pagePath": "pages/us/us",
+                "iconPath": "/resources/home/icon/us.png",
+                "selectedIconPath": "/resources/home/icon/us.png"
+            }
+        ]
+    },
+    "usingComponents": {}
+}

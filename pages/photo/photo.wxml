@@ -1,0 +1,5 @@
+<!--pages/photo/photo.wxml-->
+<image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/topblock.png" class="topblock"></image>
+<view class="photo">
+  <button bindtap="getImage" class="button">拍照识喵</button><!-- 这是我写好的按钮。 -->
+</view>

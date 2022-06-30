@@ -1,0 +1,12 @@
+<!-- <view class="page">
+    <view>
+        <image class="img"></image>
+    </view>
+    <text class="name">
+    {{data["name"]}}
+    </text>
+</view> -->
+
+<view>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/临时图片.jpg" class="temp"></image>
+</view>

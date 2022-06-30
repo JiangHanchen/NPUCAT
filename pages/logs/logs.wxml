@@ -1,0 +1,4 @@
+<view class="btns">
+    <button class="btn" bindtap="update" data-role="客户">客户端</button>
+    <button class="btn" bindtap="update" data-role="站长">站长端</button>
+</view>

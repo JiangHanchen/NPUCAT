@@ -1,0 +1,85 @@
+page {
+    padding-bottom: 20rpx;
+  }
+
+.all {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+}
+
+.block {
+    height: 350rpx;
+    width: 750rpx;
+}
+
+.hd {
+    margin-top: 0rpx;
+    width: 80%;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    background: #fff;
+}
+
+.hd_flex {
+    flex: 1;
+    text-align: center;
+    font-size: 40rpx;
+    font-family: 楷体;
+    font-weight: 500;
+    color: #333333;
+}
+
+.hd_flex_on {
+    font-size: 45rpx;
+    color: #FA871E;
+    position: relative;
+}
+
+.hd_flex_on::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    height: 6rpx;
+    background: #FA871E;
+    border-radius: 3rpx;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.list {
+    margin-top: 60rpx;
+}
+
+.list_item {
+    height: 75rpx;
+    margin-bottom: 35rpx;
+    margin-top: 40rpx;
+    margin-left: 60rpx;
+    align-items: center;
+    display: flex;
+}
+
+.item_image {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 42rpx;
+    width: 50rpx;
+}
+
+.item_text {
+    font-family: STKaiti;
+    font-size: 40rpx;
+    margin-left: 10rpx;
+    width: 85%;
+}
+
+.divLine{
+    width: 75%;
+    height: 2rpx;
+    background-color: rgb(233, 232, 232);
+    margin:  auto;
+}

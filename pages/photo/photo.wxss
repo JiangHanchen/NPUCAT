@@ -1,0 +1,28 @@
+/* pages/photo/photo.wxss */
+
+.topblock{
+  height: 350rpx;
+  width: 85%;
+  margin-left: 52rpx;
+}
+.photo{
+  width: 100%;
+  position: absolute;
+  height: 800rpx;
+  border-radius: 40rpx;
+  background-color: white;
+  margin-top: -50rpx;
+}
+button {
+  border: 0 solid #f9d877;
+  background-color: #f9d877;
+  color: #fff;
+  font-size: 120%;
+  padding: 8px 16px;
+  outline-width: 0;
+  -webkit-appearance: none;
+  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2);
+}
+.button{
+  margin-top: 400rpx;
+}

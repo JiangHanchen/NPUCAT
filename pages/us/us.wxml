@@ -1,0 +1,30 @@
+<view class="page">
+    <view>
+        <image class="block" src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/us_block.png"></image>
+    </view>
+    <view class="block2">
+        <view class="botton">
+        <text class="font">
+            登录    >
+        </text>
+        </view>
+        <view class="botton">
+        <text class="font">
+            了解我们  >
+        </text>
+        </view>
+        <view class="botton">
+        <text class="font">
+            爱心捐赠  >
+        </text>
+        </view>
+    </view>
+
+    <!-- <view class="botton2"> -->
+        <button open-type="feedback" class="botton2"> 
+            <text class="font2">
+                意见反馈
+            </text>
+        </button>
+    <!-- </view> -->
+</view>

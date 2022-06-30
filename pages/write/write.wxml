@@ -1,0 +1,23 @@
+<view class="write">
+  <textarea class="title" placeholder="请输入救助信息标题" auto-height="true" placeholder-style="color:#c1c1c5" bindinput="getTitle"></textarea>
+  <text class="division"></text>
+  <textarea class="content" placeholder="写点什么吧...." auto-height="{{autoHeight}}" placeholder-style="color:#c1c1c5" maxlength="-1" bindinput="getContent"></textarea>
+
+  <view class="flex-row img_list">
+    <block wx:for="{{imgList}}" wx:key="index">
+      <view class="item_img">
+        <image src="{{item}}" class="img_item" mode="aspectFill" catchtap="previewImg" data-src="{{item}}" bindload="getMode"></image>
+        <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/close1.png" class="close" catchtap="deleteUpload" data-index="{{index}} "></image>
+      </view>
+    </block>
+    <view class="chooseImg" bindtap="chooseImg" >
+      <view class="chooseImg-content">
+        <view class="svg"></view>
+        <view class="chooseImg-text">图 片</view>
+      </view>
+    </view>
+  </view>
+
+
+</view>
+<button class="commit" bindtap="commit">提交</button>

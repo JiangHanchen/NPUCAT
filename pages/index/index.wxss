@@ -1,0 +1,36 @@
+
+.page {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+    /* margin-top: 20rpx;
+    margin-bottom: 20rpx; */
+}
+
+.block {
+    height: 1700rpx;
+    width: 100%;
+}
+
+.circle {
+    margin-top: -1200rpx;
+    width: 500rpx;
+    height: 500rpx;
+}
+
+text {
+    font-size: 60rpx;
+    color: rgb(248, 171, 158);
+    font-weight: bold;/*加粗*/
+  -webkit-animation: discoloration 4s infinite; 
+  animation: discoloration 4s infinite;
+
+}
+
+@keyframes discoloration {
+    33% {color: rgb(255, 136, 0);}
+    67%{color: rgb(214, 61, 0);}
+    100%{color: rgb(248, 171, 158);}
+
+}

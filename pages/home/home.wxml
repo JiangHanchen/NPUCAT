@@ -1,0 +1,56 @@
+<!--pages/home/home.wxml-->
+<view class="page">
+  <image class="block" src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/topblock.png" bindtap="testgo"></image>
+  <view class="list">
+    <view class="list_item" bindtap="goactivity1">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">瓜大校园猫咪16型“人格”测试来啦！</text>
+    </view>
+    <view class="divLine"></view>
+    <view class="list_item" bindtap="goactivity2">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">关于TNR，你知道多少呢？</text>
+    </view>
+    <view class="divLine"></view>
+    <view class="list_item" bindtap="goactivity3">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">震惊！我竟然被猫猫抓伤了！</text>
+    </view>
+    <view class="divLine"></view>
+    <view class="list_item" bindtap="goactivity4">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">动物领养——给小天使一个家！</text>
+    </view>
+    <view class="divLine"></view>
+    <view class="list_item" bindtap="goactivity5">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">猫猫孕期知识全知道</text>
+    </view>
+    <view class="divLine"></view>
+    <view class="list_item" bindtap="goactivity6">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">SO喵和你一起欣赏美好春光</text>
+    </view>
+    <view class="divLine"></view>
+    <view class="list_item" bindtap="goactivity7">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">山河锦绣，国泰民安！</text>
+    </view>
+    <view class="divLine"></view>
+    <view class="list_item" bindtap="goactivity8">
+      <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/dot.png" class="item_image" mode="aspectFit"></image>
+      <text class="item_text">避雷——你对猫猫的“爱”，实际是伤害！</text>
+    </view>
+    <view class="divLine"></view>
+  </view>
+</view>
+<view class="tabbar">
+  <view class="divLine-s"></view>
+  <view class="image">
+    <image src="/resources/home/icon/index.png" class="tab" bindtap="gotoIndex"></image>
+    <image src="/resources/home/icon/house.png" class="tab" bindtap="goToHouse"></image>
+    <image src="/resources/home/icon/photo.png" class="tab" bindtap="goToPhoto"></image>
+    <image src="/resources/home/icon/rescue.png" class="tab" bindtap="goToRescue"></image>
+    <image src="/resources/home/icon/us.png" class="tab" bindtap="goToUs"></image>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="page">
+    <image class="block" src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/index_block.png"></image>
+    <image class="circle" src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/图鉴.png" bindtap="goindex"></image>
+    <text>猫 咪 图 鉴</text>
+</view>

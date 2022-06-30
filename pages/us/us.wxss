@@ -1,0 +1,64 @@
+/* pages/us/us.wxss */
+.block {
+    height: 350rpx;
+    width: 750rpx;
+    margin-top: -170rpx;
+    margin-left: 0rpx;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+    /* margin-top: 20rpx;
+    margin-bottom: 20rpx; */
+    padding-bottom: 142rpx;
+    height: 1500rpx;
+}
+
+.block2 {
+    margin-top: -300rpx;
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+    /* margin-top: 20rpx;
+    margin-bottom: 20rpx; */
+    background-color: rgb(248, 248, 248);
+    height: 530rpx;
+    width: 90%;
+    border-radius: 50rpx;
+}
+
+.botton {
+    display: flex;
+    flex-direction: row;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+    margin-bottom: 40rpx;
+}
+
+.botton2 {
+    display: flex;
+    flex-direction: row;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+    margin-bottom: 40rpx;
+    background-color: rgb(241, 241, 241);
+    width: 90%;
+    height: 146rpx;
+    margin-top: -200rpx;
+    border-radius: 50rpx;
+}
+
+.font {
+    font-family: 楷体;
+    font-size: 50rpx;
+}
+
+.font2 {
+    font-family: 楷体;
+    font-size: 50rpx;
+    margin-bottom: 70rpx;
+}

@@ -1,0 +1,42 @@
+<image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/rescueblock.png" class="topblock"></image>
+<view class="rescue">
+  <view class="rescue-information">
+    <view class="rescue-item" wx:for="{{rescue}}">
+      <view class="item-user">
+        <image src="{{item.img}}" class="user-img"></image>
+        <view class="user-name">{{item.name}}</view>
+        <view class="user-time">{{item.time}}</view>
+        <view class="user-location">{{item.location}}</view>
+      </view>
+      <view class="item-title">{{item.title}}</view>
+      <view class="item-content">{{item.content}}</view>
+      <block wx:if="{{item.contentImg.length!=0}}">
+        <block wx:if="{{item.contentImg.length==1}}">
+          <view class="item-1-widthFix" wx:if="{{item.mode=='widthFix'}}">
+            <image src="{{item.contentImg}}" bindtap="previewImg" data-src="{{item.contentImg}}" mode="{{item.mode}}" bindload="getMode" class="item-1-widthFix-image"></image>
+          </view>
+          <view class="item-1-heightFix" wx:if="{{item.mode=='heightFix'}}">
+            <image src="{{item.contentImg}}" bindtap="previewImg" data-src="{{item.contentImg}}" mode="{{item.mode}}"  bindload="getMode"class="item-1-heightFix-image"></image>
+          </view>
+        </block>
+        <block wx:if="{{item.contentImg.length==2}}">
+          <view class="item-2">
+            <view wx:for="{{item.contentImg}}" wx:for-item="items" wx:key="index">
+              <image class="item-2-img" src="{{items}}" bindtap="previewImg" mode="aspectFill" data-src="{{item.contentImg}}" bindload="getMode" data-index="{{index}}"></image>
+            </view>
+          </view>
+        </block>
+        <block wx:if="{{item.contentImg.length>2}}">
+          <view class="item-many">
+            <view wx:for="{{item.contentImg}}" wx:for-item="items" wx:key="index">
+              <image class="item-2-img" src="{{items}}" bindtap="previewImg" mode="aspectFill" data-src="{{item.contentImg}}" bindload="getMode" data-index="{{index}}"></image>
+            </view>
+          </view>
+        </block>
+      </block>
+    </view>
+  </view>
+</view>
+<view class="hoverBtn" bindtap="goToWrite">
+  <image class="hoverIcon" src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/write.png" />
+</view>
