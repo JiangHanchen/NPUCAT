@@ -8,6 +8,39 @@ Page({
 
     },
 
+    loginIn:function(){
+        wx.getUserProfile({
+          desc: '获取用户授权',
+          success: (res) => {
+            this.setData({
+              userInfo: res.userInfo,
+            })
+            console.log(this.data.userInfo)
+            wx.showToast({
+              title: '登陆成功',
+              icon:'success'
+            })
+          },
+          fail(res) {
+            console.log('获取失败', res)
+            wx.showToast({
+              title: '登陆失败',
+              icon:'error'
+            })
+          }
+        })
+      },
+
+    gotointro: function(){
+        wx.navigateTo({
+          url: '/pages/us/goto/goto', 
+          success: function() {
+          }, //成功后的回调；
+          fail: function() { }, //失败后的回调；
+          complete: function() { } //结束后的回调(成功，失败都会执行)
+        })
+      },
+
     /**
      * 生命周期函数--监听页面加载
      */

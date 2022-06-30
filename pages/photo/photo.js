@@ -8,13 +8,18 @@ Page({
 
   },
 
+  testgo: function(){
+    wx.navigateTo({
+      url: '/pages/detail/detail'
+    })
+
   getImage:function(){
     wx.chooseImage({
       success: function(res) {
         var tempFilePaths = res.tempFilePaths
         console.log(tempFilePaths[0]);
         wx.uploadFile({
-          url: 'http://192.168.133.142:8080/uploadImage?programType=miniProgram&imageName='+tempFilePaths[0].slice(11,), //仅为示例，非真实的接口地址
+          url: 'http://192.168.133.143:8080/uploadImage?programType=miniProgram&imageName='+tempFilePaths[0].slice(11,), //仅为示例，非真实的接口地址
           filePath: tempFilePaths[0],
           name: 'image',
           formData:{
@@ -24,7 +29,7 @@ Page({
             var data = res.data
             //do something
             wx.request({
-              url: 'http://192.168.133.142:8080/identificationCat?programType=miniProgram&imageName='+tempFilePaths[0].slice(11,),
+              url: 'http://192.168.133.143:8080/identificationCat?programType=miniProgram&imageName='+tempFilePaths[0].slice(11,),
               // data: {city:'beijing'},
               method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
               header: {}, // 设置请求的 header

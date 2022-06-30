@@ -3,12 +3,12 @@
         <image class="block" src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/us_block.png"></image>
     </view>
     <view class="block2">
-        <view class="botton">
+        <view class="botton" bindtap="loginIn">
         <text class="font">
             登录    >
         </text>
         </view>
-        <view class="botton">
+        <view class="botton" bindtap="gotointro">
         <text class="font">
             了解我们  >
         </text>

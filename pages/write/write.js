@@ -175,7 +175,7 @@ Page({
       })
       wx.request({
         method: 'GET',
-        url: 'http://192.168.133.142:8080/uploadRescue_Release?title=123&type=123&date=123', //仅为示例，并非真实的接口地址
+        url: 'http://192.168.133.143:8080/uploadRescue_Release?title=123&type=123&date=123', //仅为示例，并非真实的接口地址
         // data: information,
         header: {
           'content-type': 'application/json' // 默认值

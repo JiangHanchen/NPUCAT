@@ -21,12 +21,13 @@
         "pages/house/goto/goImg3/goImg3",
         "pages/house/goto/goPop1/goPop1",
         "pages/house/goto/goPop2/goPop2",
-        "pages/detail/detail"
+        "pages/detail/detail",
+        "pages/us/goto/goto"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarTitleText": "NPUCAT",
         "navigationBarTextStyle": "black"
     },
     "style": "v2",
